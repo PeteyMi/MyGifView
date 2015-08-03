@@ -1,0 +1,315 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5A6CF5971B6EF7CB007B13BB /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A6CF5961B6EF7CB007B13BB /* main.m */; };
+		5A6CF59A1B6EF7CB007B13BB /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A6CF5991B6EF7CB007B13BB /* AppDelegate.m */; };
+		5A6CF59D1B6EF7CB007B13BB /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A6CF59C1B6EF7CB007B13BB /* ViewController.m */; };
+		5A6CF5A01B6EF7CB007B13BB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5A6CF59E1B6EF7CB007B13BB /* Main.storyboard */; };
+		5A6CF5A21B6EF7CB007B13BB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5A6CF5A11B6EF7CB007B13BB /* Assets.xcassets */; };
+		5A6CF5A51B6EF7CB007B13BB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5A6CF5A31B6EF7CB007B13BB /* LaunchScreen.storyboard */; };
+		5A6CF5AE1B6EF7DF007B13BB /* MyGifView.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A6CF5AD1B6EF7DF007B13BB /* MyGifView.m */; };
+		5A6CF5B01B6F0356007B13BB /* jiafei.gif in Resources */ = {isa = PBXBuildFile; fileRef = 5A6CF5AF1B6F0356007B13BB /* jiafei.gif */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		5A6CF5921B6EF7CB007B13BB /* MyGifView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MyGifView.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5A6CF5961B6EF7CB007B13BB /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		5A6CF5981B6EF7CB007B13BB /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		5A6CF5991B6EF7CB007B13BB /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		5A6CF59B1B6EF7CB007B13BB /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		5A6CF59C1B6EF7CB007B13BB /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		5A6CF59F1B6EF7CB007B13BB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		5A6CF5A11B6EF7CB007B13BB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		5A6CF5A41B6EF7CB007B13BB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		5A6CF5A61B6EF7CB007B13BB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5A6CF5AC1B6EF7DF007B13BB /* MyGifView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyGifView.h; sourceTree = "<group>"; };
+		5A6CF5AD1B6EF7DF007B13BB /* MyGifView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyGifView.m; sourceTree = "<group>"; };
+		5A6CF5AF1B6F0356007B13BB /* jiafei.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = jiafei.gif; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5A6CF58F1B6EF7CB007B13BB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5A6CF5891B6EF7CB007B13BB = {
+			isa = PBXGroup;
+			children = (
+				5A6CF5941B6EF7CB007B13BB /* MyGifView */,
+				5A6CF5931B6EF7CB007B13BB /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		5A6CF5931B6EF7CB007B13BB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5A6CF5921B6EF7CB007B13BB /* MyGifView.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5A6CF5941B6EF7CB007B13BB /* MyGifView */ = {
+			isa = PBXGroup;
+			children = (
+				5A6CF5AF1B6F0356007B13BB /* jiafei.gif */,
+				5A6CF5981B6EF7CB007B13BB /* AppDelegate.h */,
+				5A6CF5991B6EF7CB007B13BB /* AppDelegate.m */,
+				5A6CF59B1B6EF7CB007B13BB /* ViewController.h */,
+				5A6CF59C1B6EF7CB007B13BB /* ViewController.m */,
+				5A6CF59E1B6EF7CB007B13BB /* Main.storyboard */,
+				5A6CF5A11B6EF7CB007B13BB /* Assets.xcassets */,
+				5A6CF5A31B6EF7CB007B13BB /* LaunchScreen.storyboard */,
+				5A6CF5A61B6EF7CB007B13BB /* Info.plist */,
+				5A6CF5951B6EF7CB007B13BB /* Supporting Files */,
+				5A6CF5AC1B6EF7DF007B13BB /* MyGifView.h */,
+				5A6CF5AD1B6EF7DF007B13BB /* MyGifView.m */,
+			);
+			path = MyGifView;
+			sourceTree = "<group>";
+		};
+		5A6CF5951B6EF7CB007B13BB /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				5A6CF5961B6EF7CB007B13BB /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5A6CF5911B6EF7CB007B13BB /* MyGifView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5A6CF5A91B6EF7CB007B13BB /* Build configuration list for PBXNativeTarget "MyGifView" */;
+			buildPhases = (
+				5A6CF58E1B6EF7CB007B13BB /* Sources */,
+				5A6CF58F1B6EF7CB007B13BB /* Frameworks */,
+				5A6CF5901B6EF7CB007B13BB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MyGifView;
+			productName = MyGifView;
+			productReference = 5A6CF5921B6EF7CB007B13BB /* MyGifView.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5A6CF58A1B6EF7CB007B13BB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0700;
+				ORGANIZATIONNAME = "Petey Mi";
+				TargetAttributes = {
+					5A6CF5911B6EF7CB007B13BB = {
+						CreatedOnToolsVersion = 7.0;
+					};
+				};
+			};
+			buildConfigurationList = 5A6CF58D1B6EF7CB007B13BB /* Build configuration list for PBXProject "MyGifView" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 5A6CF5891B6EF7CB007B13BB;
+			productRefGroup = 5A6CF5931B6EF7CB007B13BB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5A6CF5911B6EF7CB007B13BB /* MyGifView */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5A6CF5901B6EF7CB007B13BB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5A6CF5A51B6EF7CB007B13BB /* LaunchScreen.storyboard in Resources */,
+				5A6CF5A21B6EF7CB007B13BB /* Assets.xcassets in Resources */,
+				5A6CF5B01B6F0356007B13BB /* jiafei.gif in Resources */,
+				5A6CF5A01B6EF7CB007B13BB /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5A6CF58E1B6EF7CB007B13BB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5A6CF59D1B6EF7CB007B13BB /* ViewController.m in Sources */,
+				5A6CF5AE1B6EF7DF007B13BB /* MyGifView.m in Sources */,
+				5A6CF59A1B6EF7CB007B13BB /* AppDelegate.m in Sources */,
+				5A6CF5971B6EF7CB007B13BB /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		5A6CF59E1B6EF7CB007B13BB /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5A6CF59F1B6EF7CB007B13BB /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		5A6CF5A31B6EF7CB007B13BB /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5A6CF5A41B6EF7CB007B13BB /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		5A6CF5A71B6EF7CB007B13BB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		5A6CF5A81B6EF7CB007B13BB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5A6CF5AA1B6EF7CB007B13BB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = MyGifView/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.company.MyGifView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		5A6CF5AB1B6EF7CB007B13BB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = MyGifView/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.company.MyGifView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5A6CF58D1B6EF7CB007B13BB /* Build configuration list for PBXProject "MyGifView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5A6CF5A71B6EF7CB007B13BB /* Debug */,
+				5A6CF5A81B6EF7CB007B13BB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5A6CF5A91B6EF7CB007B13BB /* Build configuration list for PBXNativeTarget "MyGifView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5A6CF5AA1B6EF7CB007B13BB /* Debug */,
+				5A6CF5AB1B6EF7CB007B13BB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 5A6CF58A1B6EF7CB007B13BB /* Project object */;
+}
